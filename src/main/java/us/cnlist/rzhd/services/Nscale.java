@@ -12,10 +12,7 @@ public class Nscale {
     private int port;
     @Value("${us.cnlist.rzhd.nscale.client.host}")
     private String host;
-    @Value("${us.cnlist.rzhd.nscale.client.sendPacketPeriodSeconds}")
-    private int sendPacketPeriodSeconds;
-    @Value("${us.cnlist.rzhd.nscale.client.dumpDirectory}")
-    private String dumpDirectory;
+
 
     private NscaleClient nscaleClient;
 
