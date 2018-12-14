@@ -14,6 +14,8 @@ public class Nscale {
     private String host;
 
 
+
+
     private NscaleClient nscaleClient;
 
     @Bean
